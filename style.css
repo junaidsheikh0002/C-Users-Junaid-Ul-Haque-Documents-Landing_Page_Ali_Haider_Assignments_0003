@@ -1,0 +1,53 @@
+/* Center-align text */
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+
+/* Center-align block elements */
+
+.service,
+section {
+    width: 80%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+
+/* Center-align items in a flex container */
+
+nav,
+footer {
+    display: flex;
+    justify-content: center;
+    /* Align items horizontally */
+    align-items: center;
+    /* Align items vertically (if needed) */
+}
+
+
+/* Center-align items in a grid container */
+
+.container {
+    display: grid;
+    place-items: center;
+    /* Center items both horizontally and vertically */
+}
+
+
+/* Center-align form in footer */
+
+footer form {
+    width: 50%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+ooter form {
+    width: 50%;
+    /* Adjust width as needed */
+    margin: 0 auto;
+}
